@@ -3,3 +3,56 @@
   box-sizing:border-box;  
 }
 
+body{
+    position: absolute;
+    margin: 0; 
+    width: 100%; /* keeps content width of screen */
+}
+
+H2:first-of-type {
+    background-color: #72c2c5;
+    top:0; left: 0; right: 0;
+    color: white;
+    font-family: sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin:0; padding:.5em;
+}
+
+
+
+nav{
+    background-color: #fff;
+    top: 0;left: 0; right: 0;
+    padding: 5em;
+    
+}
+
+h1 img:first-of-type{
+    height: 4em;
+    position: absolute;
+    left: 2em; 
+    top: 2em;
+}
+
+
+
+li {
+    left: 2em;right: 2em;
+    list-style: none;
+    position: relative;
+    
+}
+
+
+a:first-of-type {
+    color: #f790a8;
+    font-family: sans-serif;
+    text-decoration: none;
+    float: left;
+    margin-left: 2em;
+    margin-right: 2em;
+    
+}
+
+/*Lukt me niet om nav ul in midden van pagina te plaatsen*/
