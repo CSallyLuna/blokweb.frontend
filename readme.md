@@ -75,8 +75,10 @@ Mijn volgende stap is om de flexbox toe te passen en met de hulp van javascript 
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/homepage-banner)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken]
+<img src="images/kwaiishop-home.png">
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images/breakdown-sketch.png)
+![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
+<img src="images/breakdown-sketch.png">
