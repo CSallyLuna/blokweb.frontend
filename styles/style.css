@@ -1,4 +1,12 @@
+/*Bronnen:
+- Css, images & html docss & style guide: K-waiishop.nl 
+- Form HTML: https://www.w3schools.com/html/html_forms.asp
+
+*/
+
+
 /* CSS Document */
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
@@ -8,6 +16,18 @@ body{
     margin: 0; 
     width: 100%;
     /* keeps content width of screen */
+    font-family: roboto, sans-serif;
+    color: #f790a8;
+    
+    text-align: center;/*Felt cute might delete later*/
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 header {
@@ -22,12 +42,17 @@ header {
     
 }
 
-p:first-of-type {
+/* had p:first of type 
+But wanted to put in header to make header p {}.
+This cuased some unnecesarry problems so i used ID. Had trouble w/css otherwise and wanted to save time
+*/
+#shipping-anouncement {
     position: relative;
     color: white;
     background-color: #72c2c5;
-    font-family: sans-serif;
+    font-family: roboto;
     font-size: 1em;
+    font-weight: 500;
     text-align: center;
     margin:0; 
     padding: 10px 22px;
@@ -56,7 +81,7 @@ nav {
     background-color: transparent;
 }
 
-li {
+nav li {
     left: 2em;right: 2em;
     list-style: none;
     position: relative;
@@ -66,7 +91,8 @@ li {
 
 nav a:first-of-type {
     color: #f790a8;
-    font-family: sans-serif;
+    font-family: roboto, sans-serif;
+    font-weight: 500;
     text-decoration: none;
     float: left;
     margin-left: 2em;
@@ -95,7 +121,8 @@ nav a:first-of-type {
    /*box-shadow: 3px 4px 6px;*/
     
     display: inline-block; /*not sure what it does but it helps, ask about it*/
-} 
+}
+
 
 #page-width-centered {
     text-align: center;
@@ -119,30 +146,128 @@ nav a:first-of-type {
     display: table;/*dont understand but it works, ASK ABOUT IT*/
      
     height: 582px;
-    width: 100%;   
+    width: 100%;
+    
+    margin-bottom: 35px;
 }
 
 /*////// Footer /////*/
 
 footer {
     margin: 55px 0;
+    
+}
+
+footer ul {
+    margin-bottom: 2em;
 }
 
 footer ul:first-of-type {
+    margin-top: 35px;
+    padding: 0; /*important*/
+}
+
+footer li {
+    display: inline-block; /*lets them stay next to eachother*/
+    padding: 5px 10px;
     
 }
 
 footer ul:nth-of-type(2) {
-    
+    padding: 0;
+    /*not necesarry, leaving for example*/
 }
 
 footer ul:nth-of-type(3) {
-    
+    padding: 0;
+    /*not necesarry, leaving for example*/
 }
 
 small {
+    color: #f790a8;
+}
+
+footer a {
+    color: #f790a8;
+    font-weight: 450;
+}
+
+/*NEW ARRIVALS*/
+
+section img {
+    width: 50%;
+}
+
+section img:hover {
+    width: 50%;
+    padding: 1em;
+    background-color: aqua;
+    transition: 
+}
+
+/*////// Choose style /////*/
+
+/* i am unable to download the images from the kwaii shop website. Only the link to them is available to me. But i only kinda know how to make them visible through css with this. Just like the bannerr in header
+
+girly: url("https://cdn.shopify.com/s/files/1/0138/9946/4762/collections/image_933ed54a-882d-412f-a950-491bc41d6bbf_720x.jpg?v=1573993693")
+
+streetwear: url("https://cdn.shopify.com/s/files/1/0138/9946/4762/collections/image_b0e3406e-3007-4619-9305-011bbc2d1266_540x.jpg?v=1573993586")
+
+black on black: url("https://cdn.shopify.com/s/files/1/0138/9946/4762/collections/image_2ea553af-e4a0-48e5-8617-4303d55203bc_540x.jpg?v=1573993630")
+
+the fangirl: url("https://cdn.shopify.com/s/files/1/0138/9946/4762/collections/image_2a44192f-c7a3-4c28-9cba-f1ecc1e98da6_540x.jpg?v=1573994080")
+
+*/
+
+
+///////////////////////*section {
+    position: relative;
+    background-color: beige;
+    margin-top: 35px;
+    margin-bottom: 35px;
     
 }
+
+section ul {
+    
+    margin-left: -22px;
+    margin: 1em;
+    padding: 0;
+    display: table;
+    
+    background-color: white;
+    
+}
+
+section li {
+    
+    
+
+   position: relative;
+    
+    
+    margin-bottom: 22px;
+    
+     
+    float: left;
+    width: 50%;
+    
+}
+
+section a {
+    
+    
+    padding: 1em;
+    margin: 1em;
+    display: block;
+    color: #ffff;
+    background-color: aqua;
+    background-image: url();
+}
+*///////////////////////////
+
+
+
 
 
 

@@ -40,9 +40,20 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+Mijn volgende stap is om de flexbox toe te passen en met de hulp van javascript een simpel hamburger menu te coderen.
+
 **Screenshot(s):**
 
+<img src="images/flexbox-voortgang.png">
+
+
+
 -screenshot(s) van hoe ver je bent-
+
+<img src="images/footer-voortgang.png">
+<img src="images/header-voortgang.png">
+<img src="images/section-voortgang.png">
+
 
 ### Agenda voor meeting
 
