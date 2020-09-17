@@ -81,4 +81,4 @@ Mijn volgende stap is om de flexbox toe te passen en met de hulp van javascript 
 **Breakdown-schets(en):**
 
 ![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-]
-<img src="images/breakdown-sketch.png">
+<img src="images/Breakdown%20Sketch%20-%20Frontend.png">
